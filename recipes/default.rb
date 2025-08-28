@@ -2,7 +2,7 @@
 # Cookbook:: cr_teamviewer
 # Recipe:: default
 #
-# Copyright:: 2025, The Authors, All Rights Reserved.
+# Copyright:: 2025, Remi BONNET, GPL v3.
 
 if platform_family?('mac_os_x')
   tmp_file = "#{Chef::Config['file_cache_path']}/TeamViewer.dmg"
